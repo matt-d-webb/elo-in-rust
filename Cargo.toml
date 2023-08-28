@@ -1,0 +1,10 @@
+[package]
+name = "elo"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matthew Webb <matt.d.webb@icloud.com>"]
+description = "A package for calculating performance ratings and rating changes."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
