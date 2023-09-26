@@ -105,20 +105,3 @@ impl Elo {
         self._probability(self.options.rating, opponent_rating)
     }
 }
-
-//#[warn(dead_code)]
-// fn main() {
-//     let options = Options {
-//         k: 20.0,
-//         rating: 1200.0,
-//     };
-//     let elo = Elo::new(options);
-//     let opponent_rating = 1600.0;
-//     let result = 1.0; // Win
-
-//     let rating_change = elo.change(opponent_rating, result);
-//     println!(
-//         "Change: {}, New Rating: {}",
-//         rating_change.change, rating_change.new_rating
-//     );
-// }
